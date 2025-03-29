@@ -1,5 +1,5 @@
 # HexagonHatArchive
-An Archive Of Some Hexagon Hats, Faces, And Gear, Shirts, And Pants. Before It Shutdown.
+An Archive Of Some CUSTOM Hexagon Hats, Faces, And Gear, Shirts, And Pants. Before It Shutdown.
 <br>
 Some hats have the rbxms, others only the meshes and textures.
 <br>
@@ -18,6 +18,8 @@ If you want to see people who did commited on github, look at merged  pull reque
 <br>
 And Hexagon itself for being a pretty decent revival.
 <h1> TODO:</h1>
-Change OBJ's into .mesh files and Create RBXM's for some files.
+Change OBJ's into .mesh files 
+<br>
+Create RBXM's for some files.
 <br>
 Group Similar Items Together To Avoid .mesh file Clutter.
