@@ -19,3 +19,4 @@ If you want to see people who did commited on github, look at merged  pull reque
 And Hexagon itself for being a pretty decent revival.
 <h1> TODO:</h1>
 Change OBJ's into .mesh files and Create RBXM's for some files.
+Group Similar Items Together To Avoid .mesh file Clutter.
