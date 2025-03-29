@@ -5,7 +5,7 @@ Some hats have the rbxms, others only the meshes and textures.
 <br>
 Faces are only PNGS
 <br>
-TheArbiter Folder has mostly gear rbxm's but not all the other assets (Currently Working On This)
+Yakuzda  Folder has both Gears And Hats!
 <br>
 Qwertys  and The Fat Ugly Section contain OBJ and MTL's  as well.
 <br>
@@ -19,4 +19,3 @@ If you want to see people who did commited on github, look at merged  pull reque
 And Hexagon itself for being a pretty decent revival.
 <h1> TODO:</h1>
 Change OBJ's into .mesh files and Create RBXM's for some files.
-Add Png and Mesh files to TheArbiter Folder
