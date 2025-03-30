@@ -23,3 +23,5 @@ Change OBJ's into .mesh files
 Create RBXM's for some files.
 <br>
 Group Similar Items Together To Avoid .mesh file Clutter.
+<br>
+Convert all meshes to 2.0 and 1.0 for easier use.
