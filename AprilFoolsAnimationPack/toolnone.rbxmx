@@ -1,0 +1,65 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="KeyframeSequence" referent="RBX768654D4A44D4FD6B0BFFD1F5CDDD070">
+		<Properties>
+			<bool name="Loop">true</bool>
+			<string name="Name">Test</string>
+			<token name="Priority">0</token>
+		</Properties>
+		<Item class="Keyframe" referent="RBX67FB2B7E4AA0425A90A863F9D29B41E2">
+			<Properties>
+				<string name="Name">Keyframe</string>
+				<float name="Time">0</float>
+			</Properties>
+			<Item class="Pose" referent="RBX920B623B584B42EEB02515A7CAA37921">
+				<Properties>
+					<CoordinateFrame name="CFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<float name="MaskWeight">0</float>
+					<string name="Name">Torso</string>
+					<float name="Weight">1</float>
+				</Properties>
+				<Item class="Pose" referent="RBXB50A2198B68E44CE8D1F4A3B8D8136BC">
+					<Properties>
+						<CoordinateFrame name="CFrame">
+							<X>-2.98023224e-008</X>
+							<Y>-1.65496022e-006</Y>
+							<Z>1.54972076e-006</Z>
+							<R00>0.024882447</R00>
+							<R01>-0.999690056</R01>
+							<R02>-1.69864123e-014</R02>
+							<R10>0.999689817</R10>
+							<R11>0.024882419</R11>
+							<R12>7.10542736e-015</R12>
+							<R20>0</R20>
+							<R21>1.42108539e-014</R21>
+							<R22>0.999999523</R22>
+						</CoordinateFrame>
+						<float name="MaskWeight">0</float>
+						<string name="Name">Right Arm</string>
+						<float name="Weight">1</float>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="Keyframe" referent="RBX2A11659045004E79B2C70900DC7B7C15">
+			<Properties>
+				<string name="Name">KF0.5</string>
+				<float name="Time">0.5</float>
+			</Properties>
+		</Item>
+	</Item>
+</roblox>

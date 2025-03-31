@@ -1,0 +1,2 @@
+Most of the items in this section use the Same Mesh, but Different Textures and RBXM's for effects and other stuff.
+However, the Domino Crown of Green Nintendo 64 Controllers uses a different mesh, so you can find that mesh and its texture in its folder.
