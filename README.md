@@ -1,29 +1,23 @@
 # HexagonHatArchive
+```diff
+-NOTE: If a mesh file has V1 in the name, that means it uses the Version 1 Format of Roblox's .mesh files. Same goes for V2 and Version 2.  IT DOES NOT MEAN THE MESH WAS EDITED! Learn More Here: https://roblox.fandom.com/wiki/Mesh
+```
 An Archive Of Some CUSTOM Hexagon Hats, Faces, And Gear, Shirts, And Pants. Before It Shutdown.
 <br>
-Some hats have the rbxms, others only the meshes and textures.
-<br>
-Faces are only PNGS
-<br>
-Yakuzda  Folder has both Gears And Hats!
-<br>
-Qwertys  and The Fat Ugly Section contain OBJ and MTL's  as well.
+The Fat Ugly Section contain OBJ and MTL's  due to WIP.
 <br>
 <h1>Credits: </h1>
-CROW Animation Pack Supplied by: Temmie
+Temmie
 <br>
-Some Gear RBXM files supplied by: The Arbiter
+Yakuzda
 <br>
-If you want to see people who did commited on github, look at merged  pull requests.
+WuffGaming
+<br>
+JackieChan400
 <br>
 And Hexagon itself for being a pretty decent revival.
 <h1> TODO:</h1>
-Change OBJ's into .mesh files 
+Finish Fat Ugly Guy
 <br>
 Create RBXM's for some files.
 <br>
-Group Similar Items Together To Avoid .mesh file Clutter.
-<br>
-Make 1.0 Versions For All 2.0 Meshes
-<br>
-Make 2.0 Versions For All 4.01 Meshes
