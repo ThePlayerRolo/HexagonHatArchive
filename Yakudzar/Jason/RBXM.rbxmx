@@ -1,0 +1,387 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Tool" referent="RBX0">
+		<Properties>
+			<bool name="CanBeDropped">false</bool>
+			<bool name="Enabled">true</bool>
+			<CoordinateFrame name="Grip">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>-1.5</Z>
+				<R00>0</R00>
+				<R01>0</R01>
+				<R02>1</R02>
+				<R10>1</R10>
+				<R11>0</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>1</R21>
+				<R22>0</R22>
+			</CoordinateFrame>
+			<bool name="ManualActivationOnly">false</bool>
+			<string name="Name">JasonChainsaw</string>
+			<Content name="TextureId"><url>http://www.hexagon.pw/asset/?id=27465</url></Content>
+			<string name="ToolTip">Jasons Chainsaw from the... wait did he even had it?</string>
+		</Properties>
+		<Item class="Part" referent="RBX1">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">199</int>
+				<CoordinateFrame name="CFrame">
+					<X>-26.5</X>
+					<Y>35.0999985</Y>
+					<Z>11</Z>
+					<R00>-1</R00>
+					<R01>-0</R01>
+					<R02>0</R02>
+					<R10>-0</R10>
+					<R11>-1</R11>
+					<R12>0</R12>
+					<R20>-0</R20>
+					<R21>-0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<token name="Material">256</token>
+				<string name="Name">Handle</string>
+				<float name="Reflectance">0.400000006</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>1</X>
+					<Y>0.800000012</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="Sound" referent="RBX2">
+				<Properties>
+					<bool name="Looped">false</bool>
+					<string name="Name">Lunge</string>
+					<float name="Pitch">1</float>
+					<bool name="PlayOnRemove">false</bool>
+					<Content name="SoundId"><url>http://www.hexagon.pw/asset/?id=27460</url></Content>
+					<float name="Volume">0.899999976</float>
+				</Properties>
+			</Item>
+			<Item class="Sound" referent="RBX3">
+				<Properties>
+					<bool name="Looped">false</bool>
+					<string name="Name">Slash</string>
+					<float name="Pitch">1</float>
+					<bool name="PlayOnRemove">false</bool>
+					<Content name="SoundId"><url>http://www.hexagon.pw/asset/?id=27462</url></Content>
+					<float name="Volume">0.899999976</float>
+				</Properties>
+			</Item>
+			<Item class="Sound" referent="RBX4">
+				<Properties>
+					<bool name="Looped">false</bool>
+					<string name="Name">Unsheath</string>
+					<float name="Pitch">1</float>
+					<bool name="PlayOnRemove">false</bool>
+					<Content name="SoundId"><url>http://www.hexagon.pw/asset/?id=27463</url></Content>
+					<float name="Volume">1</float>
+				</Properties>
+			</Item>
+			<Item class="SpecialMesh" referent="RBX5">
+				<Properties>
+					<token name="LODX">2</token>
+					<token name="LODY">2</token>
+					<Content name="MeshId"><url>rbxassetid://11723104793</url></Content>
+					<token name="MeshType">5</token>
+					<string name="Name">Mesh</string>
+					<Vector3 name="Offset">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<Vector3 name="Scale">
+						<X>0.100000001</X>
+						<Y>0.100000001</Y>
+						<Z>0.100000001</Z>
+					</Vector3>
+					<Content name="TextureId"><url>rbxassetid://11723264495</url></Content>
+					<Vector3 name="VertexColor">
+						<X>1</X>
+						<Y>1</Y>
+						<Z>1</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Script" referent="RBX6">
+			<Properties>
+				<bool name="Disabled">false</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">SwordScript</string>
+				<ProtectedString name="Source">--Rescripted by Luckymaxer
+
+Tool = script.Parent
+Handle = Tool:WaitForChild(&quot;Handle&quot;)
+Mesh = Handle:WaitForChild(&quot;Mesh&quot;)
+
+Players = game:GetService(&quot;Players&quot;)
+Debris = game:GetService(&quot;Debris&quot;)
+RunService = game:GetService(&quot;RunService&quot;)
+
+BaseUrl = &quot;http://www.roblox.com/asset/?id=&quot;
+
+Grips = {
+&#9;Up = CFrame.new(0, 0, -1.5, 0, 0, 1, 1, 0, 0, 0, 1, 0),
+&#9;Out = CFrame.new(0, 0, -1.5, 0, -1, -0, -1, 0, -0, 0, 0, -1),
+}
+
+DamageValues = {
+&#9;BaseDamage = 10,
+&#9;SlashDamage = 20,
+&#9;LungeDamage = 60,
+}
+
+Damage = DamageValues.BaseDamage
+
+Sounds = {
+&#9;Slash = Handle:WaitForChild(&quot;Slash&quot;),
+&#9;Lunge = Handle:WaitForChild(&quot;Lunge&quot;),
+&#9;Unsheath = Handle:WaitForChild(&quot;Unsheath&quot;),
+}
+
+LastAttack = 0
+
+ToolEquipped = false
+
+Tool.Enabled = true
+
+function SwordUp()
+&#9;Tool.Grip = Grips.Up
+end
+
+function SwordOut()
+&#9;Tool.Grip = Grips.Out
+end
+
+function IsTeamMate(Player1, Player2)
+&#9;return (Player1 and Player2 and not Player1.Neutral and not Player2.Neutral and Player1.TeamColor == Player2.TeamColor)
+end
+
+function TagHumanoid(humanoid, player)
+&#9;local Creator_Tag = Instance.new(&quot;ObjectValue&quot;)
+&#9;Creator_Tag.Name = &quot;creator&quot;
+&#9;Creator_Tag.Value = player
+&#9;Debris:AddItem(Creator_Tag, 2)
+&#9;Creator_Tag.Parent = humanoid
+end
+
+function UntagHumanoid(humanoid)
+&#9;for i, v in pairs(humanoid:GetChildren()) do
+&#9;&#9;if v:IsA(&quot;ObjectValue&quot;) and v.Name == &quot;creator&quot; then
+&#9;&#9;&#9;v:Destroy()
+&#9;&#9;end
+&#9;end
+end
+
+function Attack()
+&#9;Damage = DamageValues.SlashDamage
+&#9;Sounds.Slash:Play()
+&#9;local Anim = Instance.new(&quot;StringValue&quot;)
+&#9;Anim.Name = &quot;toolanim&quot;
+&#9;Anim.Value = &quot;Slash&quot;
+&#9;Anim.Parent = Tool
+end
+
+function Lunge()
+&#9;Damage = DamageValues.LungeDamage
+&#9;Sounds.Lunge:Play()
+&#9;local Anim = Instance.new(&quot;StringValue&quot;)
+&#9;Anim.Name = &quot;toolanim&quot;
+&#9;Anim.Value = &quot;Lunge&quot;
+&#9;Anim.Parent = Tool&#9;
+    wait(0.25)
+&#9;SwordOut()
+&#9;wait(0.5)
+&#9;SwordUp()
+end
+
+function Blow(Hit)
+&#9;if not Hit or not Hit.Parent or not CheckIfAlive() then
+&#9;&#9;return
+&#9;end
+&#9;local RightArm = (Character:FindFirstChild(&quot;Right Arm&quot;) or Character:FindFirstChild(&quot;RightHand&quot;))
+&#9;if not RightArm then
+&#9;&#9;return
+&#9;end
+&#9;local RightGrip = RightArm:FindFirstChild(&quot;RightGrip&quot;)
+&#9;if not RightGrip or (RightGrip.Part0 ~= RightArm and RightGrip.Part1 ~= RightArm) or (RightGrip.Part0 ~= Handle and RightGrip.Part1 ~= Handle) then
+&#9;&#9;return
+&#9;end
+&#9;local character = Hit.Parent
+&#9;local humanoid = character:FindFirstChild(&quot;Humanoid&quot;)
+&#9;if not humanoid then
+&#9;&#9;return
+&#9;end
+&#9;local player = Players:GetPlayerFromCharacter(character)
+&#9;if player and (player == Player or IsTeamMate(Player, player)) then
+&#9;&#9;return
+&#9;end
+&#9;UntagHumanoid(humanoid)
+&#9;TagHumanoid(humanoid, Player)
+&#9;humanoid:TakeDamage(Damage)
+end
+
+function Activated()
+&#9;if not Tool.Enabled or not ToolEquipped or not CheckIfAlive() then
+&#9;&#9;return
+&#9;end
+&#9;Tool.Enabled = false
+&#9;local Tick = RunService.Stepped:wait()
+&#9;if (Tick - LastAttack) &lt; 0.2 then
+&#9;&#9;Lunge()
+&#9;else
+&#9;&#9;Attack()
+&#9;end
+&#9;Damage = DamageValues.BaseDamage
+&#9;LastAttack = Tick
+&#9;Tool.Enabled = true
+end
+
+function CheckIfAlive()
+&#9;return (((Character and Character.Parent and Humanoid and Humanoid.Parent and Humanoid.Health &gt; 0 and RootPart and RootPart.Parent and Player and Player.Parent) and true) or false)
+end
+
+function Equipped()
+&#9;Character = Tool.Parent
+&#9;Player = Players:GetPlayerFromCharacter(Character)
+&#9;Humanoid = Character:FindFirstChild(&quot;Humanoid&quot;)
+&#9;RootPart = Character:FindFirstChild(&quot;HumanoidRootPart&quot;)
+&#9;if not CheckIfAlive() then
+&#9;&#9;return
+&#9;end
+&#9;ToolEquipped = true
+&#9;Sounds.Unsheath:Play()
+end
+
+function Unequipped()
+&#9;ToolEquipped = false
+end
+
+SwordUp()
+
+Handle.Touched:connect(Blow)
+
+Tool.Activated:connect(Activated)
+Tool.Equipped:connect(Equipped)
+Tool.Unequipped:connect(Unequipped)</ProtectedString>
+			</Properties>
+		</Item>
+		<Item class="LocalScript" referent="RBX7">
+			<Properties>
+				<bool name="Disabled">false</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">MouseIcon</string>
+				<ProtectedString name="Source">--Rescripted by Luckymaxer
+
+Mouse_Icon = &quot;rbxasset://textures/GunCursor.png&quot;
+Reloading_Icon = &quot;rbxasset://textures/GunWaitCursor.png&quot;
+
+Tool = script.Parent
+
+Mouse = nil
+
+function UpdateIcon()
+&#9;if Mouse then
+&#9;&#9;Mouse.Icon = Tool.Enabled and Mouse_Icon or Reloading_Icon
+&#9;end
+end
+
+function OnEquipped(ToolMouse)
+&#9;Mouse = ToolMouse
+&#9;UpdateIcon()
+end
+
+function OnChanged(Property)
+&#9;if Property == &quot;Enabled&quot; then
+&#9;&#9;UpdateIcon()
+&#9;end
+end
+
+Tool.Equipped:connect(OnEquipped)
+Tool.Changed:connect(OnChanged)
+</ProtectedString>
+			</Properties>
+		</Item>
+		<Item class="Camera" referent="RBX8">
+			<Properties>
+				<Ref name="CameraSubject">null</Ref>
+				<token name="CameraType">0</token>
+				<CoordinateFrame name="CoordinateFrame">
+					<X>0</X>
+					<Y>20</Y>
+					<Z>20</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>-0</R02>
+					<R10>-0</R10>
+					<R11>0.707106829</R11>
+					<R12>0.707106829</R12>
+					<R20>0</R20>
+					<R21>-0.707106829</R21>
+					<R22>0.707106829</R22>
+				</CoordinateFrame>
+				<float name="FieldOfView">30</float>
+				<CoordinateFrame name="Focus">
+					<X>-3.69511557</X>
+					<Y>3.27077055</Y>
+					<Z>-0.127788067</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">ThumbnailCamera</string>
+			</Properties>
+		</Item>
+	</Item>
+</roblox>
