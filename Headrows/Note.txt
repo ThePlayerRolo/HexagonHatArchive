@@ -1,0 +1,7 @@
+All Of The Items Here use the same mesh and can use the same rbxm (Except with a different texture).
+Here is a Key For Each Item's Texture:
+BigRowTexture.png - Bigger Head HeadRow
+DiseasedHeadrowTexture.png - Diseased Headrow
+JoyRowTexture.png - Joyous HeadRow
+OldHeadrow.png - OldMan HeadRow
+SunRowTexture.png - SunRow

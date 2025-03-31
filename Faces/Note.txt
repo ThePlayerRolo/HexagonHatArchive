@@ -1,0 +1,3 @@
+The faces are in different sizes but all work.
+If you were to use these, I'd reccomend sizing them down too 128x128 if they aren't already.
+If you are worried about crunch, there isn't any visible crunch when scaling down (at least in Novetus).

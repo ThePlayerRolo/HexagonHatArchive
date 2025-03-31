@@ -1,0 +1,217 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Hat" referent="RBX0">
+		<Properties>
+			<CoordinateFrame name="AttachmentPoint">
+				<X>0</X>
+				<Y>-1.5</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<string name="Name">Heath</string>
+		</Properties>
+		<Item class="Part" referent="RBX1">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>-26</X>
+					<Y>36.1825409</Y>
+					<Z>11.4817581</Z>
+					<R00>-0.999998569</R00>
+					<R01>-1.88264039e-007</R01>
+					<R02>0.00168745883</R02>
+					<R10>-1.25137012e-005</R10>
+					<R11>0.999973357</R11>
+					<R12>-0.00729673821</R12>
+					<R20>-0.0016874125</R20>
+					<R21>-0.00729674939</R21>
+					<R22>-0.999971926</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">false</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<token name="Material">256</token>
+				<string name="Name">Handle</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">0</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>2</X>
+					<Y>2</Y>
+					<Z>2</Z>
+				</Vector3>
+			</Properties>
+			<Item class="Decal" referent="RBX2">
+				<Properties>
+					<token name="Face">5</token>
+					<string name="Name">Decal</string>
+					<float name="Shiny">20</float>
+					<float name="Specular">0</float>
+					<Content name="Texture"><url>rbxassetid://14766</url></Content>
+					<float name="Transparency">0.724444747</float>
+				</Properties>
+			</Item>
+			<Item class="Decal" referent="RBX3">
+				<Properties>
+					<token name="Face">2</token>
+					<string name="Name">Decal</string>
+					<float name="Shiny">20</float>
+					<float name="Specular">0</float>
+					<Content name="Texture"><url>rbxassetid://14766</url></Content>
+					<float name="Transparency">0.724444747</float>
+				</Properties>
+			</Item>
+			<Item class="Decal" referent="RBX4">
+				<Properties>
+					<token name="Face">4</token>
+					<string name="Name">Decal</string>
+					<float name="Shiny">20</float>
+					<float name="Specular">0</float>
+					<Content name="Texture"><url>rbxassetid://14766</url></Content>
+					<float name="Transparency">0.724444747</float>
+				</Properties>
+			</Item>
+			<Item class="Decal" referent="RBX5">
+				<Properties>
+					<token name="Face">3</token>
+					<string name="Name">Decal</string>
+					<float name="Shiny">20</float>
+					<float name="Specular">0</float>
+					<Content name="Texture"><url>rbxassetid://14766</url></Content>
+					<float name="Transparency">0.724444747</float>
+				</Properties>
+			</Item>
+			<Item class="Decal" referent="RBX6">
+				<Properties>
+					<token name="Face">0</token>
+					<string name="Name">Decal</string>
+					<float name="Shiny">20</float>
+					<float name="Specular">0</float>
+					<Content name="Texture"><url>rbxassetid://14766</url></Content>
+					<float name="Transparency">0.724444747</float>
+				</Properties>
+			</Item>
+			<Item class="Decal" referent="RBX7">
+				<Properties>
+					<token name="Face">1</token>
+					<string name="Name">Decal</string>
+					<float name="Shiny">20</float>
+					<float name="Specular">0</float>
+					<Content name="Texture"><url>rbxassetid://14766</url></Content>
+					<float name="Transparency">0.724444747</float>
+				</Properties>
+			</Item>
+			<Item class="Sound" referent="RBX8">
+				<Properties>
+					<bool name="Looped">false</bool>
+					<string name="Name">Harm1</string>
+					<float name="Pitch">1</float>
+					<bool name="PlayOnRemove">false</bool>
+					<Content name="SoundId"><url>http://www.roblox.com/asset/?id=14769</url></Content>
+					<float name="Volume">1</float>
+				</Properties>
+			</Item>
+			<Item class="Sound" referent="RBX9">
+				<Properties>
+					<bool name="Looped">false</bool>
+					<string name="Name">Harm2</string>
+					<float name="Pitch">1</float>
+					<bool name="PlayOnRemove">false</bool>
+					<Content name="SoundId"><url>http://www.roblox.com/asset/?id=14770</url></Content>
+					<float name="Volume">1</float>
+				</Properties>
+			</Item>
+			<Item class="Sound" referent="RBX10">
+				<Properties>
+					<bool name="Looped">false</bool>
+					<string name="Name">Harm3</string>
+					<float name="Pitch">1</float>
+					<bool name="PlayOnRemove">false</bool>
+					<Content name="SoundId"><url>http://www.roblox.com/asset/?id=14776</url></Content>
+					<float name="Volume">1</float>
+				</Properties>
+			</Item>
+			<Item class="Sound" referent="RBX11">
+				<Properties>
+					<bool name="Looped">false</bool>
+					<string name="Name">Harm4</string>
+					<float name="Pitch">1</float>
+					<bool name="PlayOnRemove">false</bool>
+					<Content name="SoundId"><url>http://www.roblox.com/asset/?id=14777</url></Content>
+					<float name="Volume">1</float>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBX12">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">HarmonicaSounds</string>
+					<ProtectedString name="Source">-- LOL
+
+function isWorn()
+&#9;return script.Parent.Parent.Parent:FindFirstChild(&quot;Humanoid&quot;) ~= nil
+end
+
+while true do
+
+&#9;wait(math.random(15,20))
+
+&#9;if (isWorn()) then
+
+&#9;&#9;local name = &quot;Harm&quot; .. math.random(1,4)
+
+&#9;&#9;script.Parent:FindFirstChild(name):Play()
+&#9;end
+
+end</ProtectedString>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+</roblox>
