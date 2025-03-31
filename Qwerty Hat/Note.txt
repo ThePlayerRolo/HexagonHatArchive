@@ -1,0 +1,6 @@
+You may be wondering, why is there a edited version by me in this archive?
+Well you see, the orignal version of this model  is 7k VERTICES!
+And if you use a simple merge by distance in blender, it goes down to 2K Vertices with no visible difference.
+So um, I'm adding the edited version for my own sanity.
+Also Note: The Original OBJ might is also displaced upward in the file istelf and not by a hat object. 
+The edited Version moves it to the origin to help making it a proper hat easier.

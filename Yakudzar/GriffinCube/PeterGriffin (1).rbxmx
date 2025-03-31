@@ -1,0 +1,254 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Tool" referent="RBX0">
+		<Properties>
+			<bool name="CanBeDropped">true</bool>
+			<bool name="Enabled">true</bool>
+			<CoordinateFrame name="Grip">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>-0.400000006</Z>
+				<R00>0</R00>
+				<R01>0</R01>
+				<R02>1</R02>
+				<R10>1</R10>
+				<R11>0</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>1</R21>
+				<R22>0</R22>
+			</CoordinateFrame>
+			<bool name="ManualActivationOnly">false</bool>
+			<string name="Name">PeterGriffinCube</string>
+			<Content name="TextureId"><url>http://hexagon.pw/Thumbs/Asset.ashx?assetId=27017</url></Content>
+			<string name="ToolTip">Peter. Griffin. Cube.</string>
+		</Properties>
+		<Item class="Script" referent="RBX1">
+			<Properties>
+				<bool name="Disabled">false</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">TeddyScript</string>
+				<ProtectedString name="Source">local Tool = script.Parent;
+
+enabled = true
+
+
+
+s1 = Instance.new(&quot;Sound&quot;)
+s1.SoundId = &quot;http://www.hexagon.pw/asset/?id=27012&quot;
+s1.Parent = Tool.Handle
+
+s2 = Instance.new(&quot;Sound&quot;)
+s2.SoundId = &quot;http://www.hexagon.pw/asset/?id=27011&quot;
+s2.Parent = Tool.Handle
+
+s3 = Instance.new(&quot;Sound&quot;)
+s3.SoundId = &quot;http://www.hexagon.pw/asset/?id=27008&quot;
+s3.Parent = Tool.Handle
+
+s4 = Instance.new(&quot;Sound&quot;)
+s4.SoundId = &quot;http://www.hexagon.pw/asset/?id=27013&quot;
+s4.Parent = Tool.Handle
+
+local sayings = {s1,s2,s3,s4}
+
+
+function onActivated()
+&#9;if not enabled  then
+&#9;&#9;return
+&#9;end
+
+&#9;enabled = false
+&#9;
+&#9;sayings[math.random(1,#sayings)]:Play()
+&#9;wait(3)&#9;
+&#9;
+&#9;enabled = true
+end
+
+function onEquipped()
+&#9;for i=1,#sayings do
+&#9;&#9;sayings[i].Volume = 1
+&#9;end
+end
+
+function onUnequipped()
+&#9;for i=1,#sayings do
+&#9;&#9;sayings[i].Volume = 0
+&#9;end
+end
+
+script.Parent.Activated:connect(onActivated)
+script.Parent.Equipped:connect(onEquipped)
+script.Parent.Unequipped:connect(onUnequipped)
+</ProtectedString>
+			</Properties>
+		</Item>
+		<Item class="Part" referent="RBX2">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">1003</int>
+				<CoordinateFrame name="CFrame">
+					<X>2.50001526</X>
+					<Y>9.00025368</Y>
+					<Z>0.59999311</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>-3.42285489e-008</R02>
+					<R10>3.42285489e-008</R10>
+					<R11>0</R11>
+					<R12>1</R12>
+					<R20>0</R20>
+					<R21>-1</R21>
+					<R22>0</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<token name="Material">256</token>
+				<string name="Name">Handle</string>
+				<float name="Reflectance">0.400000006</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">2</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>2</X>
+					<Y>2</Y>
+					<Z>2</Z>
+				</Vector3>
+			</Properties>
+			<Item class="Decal" referent="RBXBDA9208210BE48608DE571468EC9D6FC">
+				<Properties>
+					<token name="Face">2</token>
+					<string name="Name">Decal</string>
+					<float name="Shiny">20</float>
+					<float name="Specular">0</float>
+					<Content name="Texture"><url>http://hexagon.pw/asset?id=27014</url></Content>
+					<float name="Transparency">0</float>
+				</Properties>
+			</Item>
+			<Item class="Decal" referent="RBXC82193253E014C0DB3BDC9509136AD78">
+				<Properties>
+					<token name="Face">4</token>
+					<string name="Name">Decal</string>
+					<float name="Shiny">20</float>
+					<float name="Specular">0</float>
+					<Content name="Texture"><url>http://hexagon.pw/asset?id=27014</url></Content>
+					<float name="Transparency">0</float>
+				</Properties>
+			</Item>
+			<Item class="Decal" referent="RBX515F0849B6CF449EA890EFB269055810">
+				<Properties>
+					<token name="Face">5</token>
+					<string name="Name">Decal</string>
+					<float name="Shiny">20</float>
+					<float name="Specular">0</float>
+					<Content name="Texture"><url>http://hexagon.pw/asset?id=27014</url></Content>
+					<float name="Transparency">0</float>
+				</Properties>
+			</Item>
+			<Item class="Decal" referent="RBX0FE197ABC5CB4F9C9908A79D1726AF0E">
+				<Properties>
+					<token name="Face">3</token>
+					<string name="Name">Decal</string>
+					<float name="Shiny">20</float>
+					<float name="Specular">0</float>
+					<Content name="Texture"><url>http://hexagon.pw/asset?id=27014</url></Content>
+					<float name="Transparency">0</float>
+				</Properties>
+			</Item>
+			<Item class="Decal" referent="RBX1A142251D41B45F98164D92344224152">
+				<Properties>
+					<token name="Face">0</token>
+					<string name="Name">Decal</string>
+					<float name="Shiny">20</float>
+					<float name="Specular">0</float>
+					<Content name="Texture"><url>http://hexagon.pw/asset?id=27014</url></Content>
+					<float name="Transparency">0</float>
+				</Properties>
+			</Item>
+			<Item class="Decal" referent="RBX8A58E68997634C92B488E4F4023119DC">
+				<Properties>
+					<token name="Face">1</token>
+					<string name="Name">Decal</string>
+					<float name="Shiny">20</float>
+					<float name="Specular">0</float>
+					<Content name="Texture"><url>http://hexagon.pw/asset?id=27014</url></Content>
+					<float name="Transparency">0</float>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Camera" referent="RBX4">
+			<Properties>
+				<Ref name="CameraSubject">null</Ref>
+				<token name="CameraType">0</token>
+				<CoordinateFrame name="CoordinateFrame">
+					<X>-4.16748476</X>
+					<Y>1.04057765</Y>
+					<Z>0.204039454</Z>
+					<R00>0.0489006042</R00>
+					<R01>0.0574956238</R01>
+					<R02>-0.997147441</R02>
+					<R10>1.99286934e-010</R10>
+					<R11>0.998341858</R11>
+					<R12>0.0575644895</R12>
+					<R20>0.998803675</R20>
+					<R21>-0.00281493855</R21>
+					<R22>0.0488195159</R22>
+				</CoordinateFrame>
+				<float name="FieldOfView">70</float>
+				<CoordinateFrame name="Focus">
+					<X>-0.000253677368</X>
+					<Y>0.800006866</Y>
+					<Z>1.52587891e-005</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">ThumbnailCamera</string>
+			</Properties>
+		</Item>
+	</Item>
+</roblox>
