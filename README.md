@@ -15,6 +15,8 @@ WuffGaming
 <br>
 JackieChan400
 <br>
+Arceus (From Hexagon and On Kamari)
+<br>
 And Hexagon itself for being a pretty decent revival.
 <h1> TODO:</h1>
 Finish Fat Ugly Guy
