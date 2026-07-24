@@ -3,6 +3,7 @@
 -NOTE: If a mesh file has V1 in the name, that means it uses the Version 1 Format of Roblox's .mesh files. Same goes for V2 and Version 2.  IT DOES NOT MEAN THE MESH WAS EDITED! Learn More Here: https://roblox.fandom.com/wiki/Mesh
 ```
 An Archive Of Some CUSTOM Hexagon Hats, Faces, And Gear, Shirts, And Pants. Before It Shutdown.
+UPDATE 7/24/26: Hexagon has been back for quite a while so this wont be getting updates.
 <br>
 The Fat Ugly Section contain OBJ and MTL's  due to WIP.
 <br>
